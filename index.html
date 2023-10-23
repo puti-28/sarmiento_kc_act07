@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+  <title>Index Page</title>
+  <style>
+    body {
+      background-color: peachpuff;
+    }
+          
+      img{
+        height: 80vh;
+        position: relative;
+        left: 750px;
+        top: 80px;
+      }
+        h1{
+          position: absolute;
+            top: 200px;
+            left: 170px;
+            color: black;
+            padding: 10px;
+            text-align: justify;
+            font-size: 30px;
+      }
+ </style>
+</head>
+<body>
+      <img src="image/kc.jpg.jpg">
+      <h1 id="fullname">H! My Name is KC Sarmiento</h1>
+          <a href="about.html">See About Page</a>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const userName = "KC Sarmiento";
+
+      const fullNameElement = document.getElementById("fullname");
+
+      fullNameElement.textContent = fullName;
+    });
+  </script>
+</body>
+</html>
